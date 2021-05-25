@@ -50,4 +50,4 @@ if(process.env.NODE_ENV = "production"){
     app.use(express.static('../frontend/build'));
 }
 
-app.listen(5000,()=>{console.log(`Server started at http://localhost:${PORT}`)})
+app.listen(PORT,()=>{console.log(`Server started at http://localhost:${PORT}`)})
